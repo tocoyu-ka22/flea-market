@@ -1,0 +1,159 @@
+.sale__content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 3fr 2fr;
+}
+
+.merchandise__information {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.merchandise__img {
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+
+.merchandise__img img {
+    width: 150px;
+    height: 200px;
+}
+
+.merchandise__name-price {
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sale__method {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.method {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.method__change-link {
+    float: left;
+    text-decoration: none;
+    color: #2C7CFF;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.sale__address {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.address {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.address__change-link {
+    float: left;
+    text-decoration: none;
+    color: #2C7CFF;
+    font-weight: bold;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+
+.sale__detail {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: solid 1px black;
+    width: 450px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.goods__price {
+    width: 380px;
+    height: 125px;
+}
+
+.goods__price-ttl {
+    font-weight: bold;
+    float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.goods__price-content {
+    float: left;
+    margin-top: 70px;
+    margin-left: 150px;
+
+}
+
+.payment__price {
+    width: 400px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.payment__price-ttl {
+    font-weight: bold;
+    float: left;
+}
+
+.payment__price-content {
+    float: left;
+    margin-left: 135px;
+}
+
+.payment__method {
+    margin-left: 70px;
+}
+
+.payment__method-ttl {
+    font-weight: bold;
+    float: left;
+}
+
+.payment__method-content {
+    float: left;
+    margin-left: 135px;
+}
+
+.sale__button {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 450px;
+    height: 50px;
+    margin-top: 240px;
+    margin-left: 50px;
+    padding: 0.7em 1em;
+    border-radius: 3px;
+    background: #FF6666;
+    text-align: center;
+}
+
+.sale__link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

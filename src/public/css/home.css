@@ -1,0 +1,58 @@
+.merchandise__list {
+    height: 645px;
+}
+
+.top__menu {
+    border-bottom: solid 2px black;
+}
+
+.recommend {
+    float: left;
+}
+
+.recommend__link {
+    text-decoration: none;
+    margin-left: 150px;
+    font-weight: bold;
+    color: red;
+}
+
+.favorite {
+    float: left;
+}
+
+.favorite__link {
+    text-decoration: none;
+    margin-left: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 100px;
+}
+
+.merchandise__card {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.card__img img {
+    width: 180px;
+}
+
+.card__name {
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+}
+
+.card__price {
+    margin-top: 0;
+    color: black;
+}

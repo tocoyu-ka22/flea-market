@@ -1,0 +1,74 @@
+.edit__content {
+    margin: 0 auto;
+}
+
+.content__ttl {
+    text-align: center;
+}
+
+.edit__form {
+    margin-top: 50px;
+}
+
+.user__img-edit {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background: #A9A9A9;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.img__edit-button {
+    margin-left: 150px;
+    width: 150px;
+    height: 30px;
+    border: solid 2px #ff6666;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6666;
+}
+
+.edit__form-content {
+    margin-top: 50px;
+}
+
+.form__group {
+    padding-left: 500px;
+    margin-bottom: 30px;
+}
+
+.form__group-ttl {
+    height: 30px;
+
+}
+
+.form__label-item {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form__input-item {
+    height: 40px;
+    width: 500px;
+}
+
+.form__button {
+    padding-left: 500px;
+    margin: 50px 0;
+}
+
+.form__button-submit {
+    height: 40px;
+    width: 500px;
+    color: white;
+    background: #ff6666;
+    border: solid 3px #ff6666;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}

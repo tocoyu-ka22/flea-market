@@ -1,0 +1,89 @@
+.mypage__content {
+    margin: 0 auto;
+}
+
+.user__information {
+    width: 1500px;
+    height: 200px;
+}
+
+.user__img {
+    padding: 0.5em 1em;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 100px;
+    height: 100px;
+    color: #2c2c2f;
+    background: #A9A9A9;
+    border-radius: 50px;
+    float: left;
+}
+
+.user__name {
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.plofile__edit {
+    float: left;
+    margin-top: 100px;
+    margin-left: 350px;
+    padding-top: 7px;
+    padding-left: 25px;
+    width: 200px;
+    height: 40px;
+    border: solid 3px #FF6666;
+    border-radius: 5px;
+}
+
+.plofile__edit-link {
+    text-decoration: none;
+    color: #FF6666;
+    font-weight: bold;
+}
+
+.top__menu {
+    border-bottom: solid 2px black;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.list {
+    float: left;
+    margin-left: 200px;
+}
+
+.list__link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.sale {
+    float: left;
+    margin-left: 100px;
+}
+
+.sale__link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+}
+
+.merchandise__card {
+    width: 180px;
+    height: 200px;
+    margin-right: 40px;
+    text-decoration: none;
+    background: #A9A9A9;
+}

@@ -1,0 +1,147 @@
+.comment__content {
+    display: grid;
+    grid-template-rows: 150px 50px 200px 200px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.merchandise__img {
+    grid-column: 1/2;
+    width: 300px;
+    height: 350px;
+    margin: 100px 200px;
+    ;
+    color: #2c2c2f;
+    background: #A9A9A9;
+}
+
+.merchandise__img img {
+    width: 300px;
+    height: 350px;
+}
+
+.merchandise__information {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 80px;
+    height: 100px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.brand {
+    margin: 0;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.like {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 60px;
+}
+
+.like__button-submit {
+    border: none;
+    background: transparent;
+}
+
+.like__number {
+    padding-left: 15px;
+}
+
+.comment__tag {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100px;
+    padding-top: 56px;
+    padding-left: 80px;
+}
+
+.comment__link {
+    text-decoration: none;
+    color: black;
+}
+
+.comment__item {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 150px;
+}
+
+.comment__number {
+    padding-left: 12px;
+}
+
+.user__img {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    width: 50px;
+    height: 50px;
+    color: #2c2c2f;
+    background: #A9A9A9;
+    border-radius: 25px;
+    float: left;
+}
+
+.user__name {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.comment {
+    padding: 0.5em 1em;
+    margin-top: 100px;
+    width: 500px;
+    height: 80px;
+    color: #2c2c2f;
+    background: #A9A9A9;
+    border-radius: 3px;
+}
+
+.comment__box {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.comment__form {
+    margin-bottom: 100px;
+    height: 300px;
+}
+
+.comment__form-ttl {
+    font-weight: bold;
+}
+
+.comment__textarea {
+    width: 500px;
+}
+
+.comment__button {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.comment__button-submit {
+    width: 500px;
+    height: 50px;
+    border: solid 2px #ff6666;
+    border-radius: 3px;
+    background: #ff6666;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    ;
+}

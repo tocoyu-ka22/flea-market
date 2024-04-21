@@ -1,0 +1,43 @@
+.register__address-content {
+    margin: 0 auto;
+}
+
+.content__ttl {
+    text-align: center;
+}
+
+.content__form {
+    margin-top: 80px;
+}
+
+.form__group {
+    margin-left: 520px;
+    margin-bottom: 50px;
+}
+
+.form__label-item {
+    font-size: 18px;
+    font-weight:bold;
+    margin: 0;
+}
+
+.form__input-item {
+    width: 500px;
+    height: 40px;
+}
+
+.form__button {
+    margin-left: 520px;
+    margin-top: 70px;
+}
+
+.form__button-submit {
+    width: 500px;
+    height: 40px;
+    border: solid 2px #ff6666;
+    border-radius: 3px;
+    background: #ff6666;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}

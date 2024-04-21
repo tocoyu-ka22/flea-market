@@ -1,0 +1,19 @@
+.header {
+    height: 80px;
+}
+
+.header__inner {
+    background: #222222;
+    height: 50px;
+}
+
+.header-utilities {
+    display: flex;
+}
+
+.header-utilities img {
+    height: 49px;
+    width: 400px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
