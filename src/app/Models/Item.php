@@ -14,8 +14,19 @@ class Item extends Model
     protected $primaryKey = 'id';
 
 
+    public function categories()
+    {
+        return $this->belongsTo('App\Category');
+    }
+
+    public function conditions()
+    {
+        return $this->belongsTo('App\Condition');
+    }
+    
     public function findAllItems()
     {
         return Item::all();
     }
+
 }

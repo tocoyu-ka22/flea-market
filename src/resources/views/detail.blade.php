@@ -12,7 +12,7 @@
     </div>
     <div class="first__half">
         <p class="merchandise__name">{{ $item->name }}</p>
-        <p class="merchandise__brand">ブランド名</p>
+        <p class="merchandise__brand">{{ $item->brand }}</p>
         <p class="merchandise__price">¥{{ $item->price }}(値段)</p>
         <form class="like">
             <div class="like__button">
@@ -41,11 +41,11 @@
             <p class="information">商品の情報</p>
             <p class="category">カテゴリー</p>
             <div class="category__information">
-                <p class="category__content">〇〇</p>
+                <p class="category__content">{{ $item->category }}</p>
             </div><br /><br /><br /><br /><br /><br />
             <p class="condition">商品の状態</p>
             <div class="condition__information">
-                <p class="condition__content">〇〇</p>
+                <p class="condition__content">{{ $item->condition }}</p>
             </div>
         </div>
     </div>

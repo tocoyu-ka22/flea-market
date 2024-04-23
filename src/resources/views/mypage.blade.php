@@ -8,7 +8,7 @@
 <div class="mypage__content">
     <div class="user__information">
         <div class="user__img">
-            <img class="rounded_circle" src="{{ asset('public/'.$user->profile_image) }}" alt="プロフィール画像">
+            <img class="rounded_circle" src="" alt="プロフィール画像">
         </div>
         <div class="user__name">
             <h2 class="name">{{ $user->name }}</h2>
