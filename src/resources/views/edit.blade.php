@@ -9,9 +9,10 @@
     <div class="content__ttl">
         <h2 class="ttl">プロフィール設定</h2>
     </div>
-    <form class="edit__form">
+    <form class="edit__form" action="/edit" method="post">
+        @csrf
         <div class="user__img-edit">
-            <img src="" alt="代替テキスト">
+            <img src="{{ $profiles->img_url }}" alt="代替テキスト">
             <button class="img__edit-button" type="submit">画像を選択する</button>
         </div>
         <div class="edit__form-content">

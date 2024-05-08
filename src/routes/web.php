@@ -26,3 +26,5 @@ Route::get('/comment/{id}', [CommentController::class, 'create'])->name('comment
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::get('/mypage', [UserController::class, 'mypage'])->name('mypage');
+Route::get('/edit', [UserController::class, 'profile'])->name('edit');
+Route::post('/edit', [UserController::class, 'create'])->name('edit');

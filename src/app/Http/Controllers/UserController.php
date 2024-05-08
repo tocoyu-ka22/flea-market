@@ -15,4 +15,21 @@ class UserController extends Controller
         $user = Auth::user();
         return view('mypage', compact('user'));
     }
+
+    public function profile()
+    {
+        $profiles = Auth::user();
+        return view('edit', compact('profiles'));
+    }
+
+    public function create(Request $request)
+    {
+        Profile::create([
+            "name" => $request->name,
+            "postcode" => $request->postcode,
+            "address" => $request->address,
+            "building" => $request->building,
+        ]);
+        return redirect('mypage');
+    }
 }

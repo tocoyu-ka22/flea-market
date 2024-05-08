@@ -7,7 +7,7 @@
 @section('content')
 <div class="register__address-content">
     <h2 class="content__ttl">住所の変更</h2>
-    <form class="content__form">
+    <form class="content__form" action="/purchase/address" method="post">
         <div class="form__group">
             <div class="form__group-ttl">
                 <p class="form__label-item">郵便番号</p>
