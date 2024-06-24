@@ -15,6 +15,9 @@
             <img src="{{ $profiles->img_url }}" alt="代替テキスト">
             <button class="img__edit-button" type="submit">画像を選択する</button>
         </div>
+        @if (count($errors) > 0)
+        <p class="error_message">入力に問題があります</p>
+        @endif
         <div class="edit__form-content">
             <div class="form__group">
                 <div class="form__group-ttl">
@@ -25,6 +28,9 @@
                         <input type="text" class="form__input-item" name="name" />
                     </div>
                 </div>
+                @error('name')
+                {{$errors->first('name')}}
+                @enderror
             </div>
             <div class="form__group">
                 <div class="form__group-ttl">
@@ -35,6 +41,9 @@
                         <input type="text" class="form__input-item" name="post-code" />
                     </div>
                 </div>
+                @error('postcode')
+                {{$errors->first('postcode')}}
+                @enderror
             </div>
             <div class="form__group">
                 <div class="form__group-ttl">
@@ -45,6 +54,9 @@
                         <input type="text" class="form__input-item" name="address" />
                     </div>
                 </div>
+                @error('address')
+                {{$errors->first('address')}}
+                @enderror
             </div>
             <div class="form__group">
                 <div class="form__group-ttl">
